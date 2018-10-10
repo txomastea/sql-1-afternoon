@@ -1,0 +1,6 @@
+SELECT * FROM Artist;
+INSERT INTO Artist ( Name ) VALUES ('koko'),('jojo'),('popo');
+SELECT * FROM Artist ORDER BY Name Desc LIMIT 10;
+SELECT * FROM Artist ORDER BY Name Asc LIMIT 5;
+SELECT * FROM Artist WHERE Name LIKE 'Black%';
+SELECT * FROM Artist WHERE Name LIKE '%Black%';
